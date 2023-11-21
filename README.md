@@ -1,5 +1,9 @@
 # Angular 17 SSG (Prerendering) Example
 
+1. Vite + Esbuild
+   ![image](https://github.com/kcaayush2158/Angular-SSG/assets/28734661/a24dc06e-06f8-4c55-8393-eed5e8470a87)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.2.
 
 ## Development server
