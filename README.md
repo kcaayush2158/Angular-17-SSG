@@ -10,6 +10,7 @@ Learn more: https://angular.io/guide/prerendering#:~:text=Prerendering%2C%20comm
 
 Requirements
  - Node V.20
+ - Angular CLI 17
 
   1. Create app
      - ng new ${projectName} --ssr
