@@ -1,5 +1,13 @@
 # Angular 17 SSG (Prerendering) Example
 
+Prerendering, commonly referred to as Static Site Generation (SSG), represents the method by which pages are rendered to static HTML files during the build process.
+
+Prerendering maintains the same performance benefits of server-side rendering (SSR). But achieves a reduced Time to First Byte (TTFB), ultimately enhancing user experience. The key distinction lies in its approach that pages are served as static content, and there is no request-based rendering.
+
+When the data necessary for server-side rendering remains consistent across all users, the strategy of prerendering emerges as a valuable alternative. Rather than dynamically rendering pages for each user request, prerendering takes a proactive approach by rendering them in advance.
+
+Learn more: https://angular.io/guide/prerendering#:~:text=Prerendering%2C%20commonly%20referred%20to%20as,%2Dside%20rendering%20(SSR).
+
 Requirements
  - Node V.20
 
