@@ -1,0 +1,32 @@
+<div class="container">
+ <div class="card-group">
+
+  <div class="row">
+    @for (item of tripList; track item?.id) {
+      <div class="card col-md-4 ml-2 mr-2 mt-2"  routerLink="/{{item?.slug}}" routerLinkActive="router-link-active" >
+        <img loading="lazy" src="{{item?.image_1920}}" class="img-fluid"  height="300" width="500" alt="Card image cap">
+
+        <div class="card-body">
+          <h4 class="card-title">{{item?.name}}</h4>
+          <hr>
+          <p class="card-text">{{item?.description ?? ''}}</p>
+          <hr>
+          <div class="row mx-auto">
+            <div class="col-md-6">
+              <span class="badge bg-danger">Mark Price :{{item?.marked_price ?? ''}}</span>
+            </div>
+            <div class="col-md-6">
+              <span class="badge bg-warning ml-5">Difficulty : {{item?.difficulty ?? ''}}</span>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    }
+  </div>
+
+
+ </div>
+</div>
