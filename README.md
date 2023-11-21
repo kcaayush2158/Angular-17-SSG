@@ -13,15 +13,19 @@ Requirements
  - Angular CLI 17
 
   1. Create app
-     - ng new ${projectName} --ssr
-        
-1. Angular 17 uses Vite + Esbuild
+     - <code>ng new ${projectName} --ssr </code>
+<hr>
+
+
+   2 - Enable SSG
+   
+   ![image](https://github.com/kcaayush2158/Angular-SSG/assets/28734661/9a60254e-17ce-4da6-9727-ba0840b7082a)
+   
+
+  3 - Build with Vite + Esbuild
    
    ![image](https://github.com/kcaayush2158/Angular-SSG/assets/28734661/a24dc06e-06f8-4c55-8393-eed5e8470a87)
 
-3. Enable SSG
-   
-   ![image](https://github.com/kcaayush2158/Angular-SSG/assets/28734661/9a60254e-17ce-4da6-9727-ba0840b7082a)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.2.
