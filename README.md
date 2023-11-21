@@ -1,7 +1,16 @@
 # Angular 17 SSG (Prerendering) Example
 
+Requirements
+ - Node V.20
+
+  1. Create app
+     - ng new ${projectName} --ssr
+        
 1. Vite + Esbuild
    ![image](https://github.com/kcaayush2158/Angular-SSG/assets/28734661/a24dc06e-06f8-4c55-8393-eed5e8470a87)
+
+2. Enable prerender
+   ![image](https://github.com/kcaayush2158/Angular-SSG/assets/28734661/9a60254e-17ce-4da6-9727-ba0840b7082a)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.2.
